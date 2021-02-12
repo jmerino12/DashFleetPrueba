@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/inicio">
+
+    <fragment
+        android:id="@+id/inicio"
+        android:name="com.jmb.dashfleetprueba.menu.TareasFragment"
+        android:label="fragment_tareas"
+        tools:layout="@layout/fragment_tareas" />
+    <fragment
+        android:id="@+id/dashboard"
+        android:name="com.jmb.dashfleetprueba.menu.DashBoardragment"
+        android:label="fragment_dash_boardragment"
+        tools:layout="@layout/fragment_dash_boardragment" />
+    <fragment
+        android:id="@+id/billetera"
+        android:name="com.jmb.dashfleetprueba.menu.BilleteraFragment"
+        android:label="fragment_billetera"
+        tools:layout="@layout/fragment_billetera" />
+    <fragment
+        android:id="@+id/moneda"
+        android:name="com.jmb.dashfleetprueba.menu.MonedaFragment"
+        android:label="fragment_moneda"
+        tools:layout="@layout/fragment_moneda" />
+    <fragment
+        android:id="@+id/configurtion"
+        android:name="com.jmb.dashfleetprueba.menu.ConfiguracionFragment"
+        android:label="fragment_configuracion"
+        tools:layout="@layout/fragment_configuracion" />
+</navigation>
